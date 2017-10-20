@@ -13,6 +13,8 @@
 		C7210AFE1F9A22B300F2724E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7210AFC1F9A22B300F2724E /* Main.storyboard */; };
 		C7210B001F9A22B300F2724E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7210AFF1F9A22B300F2724E /* Assets.xcassets */; };
 		C7210B031F9A22B300F2724E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7210B011F9A22B300F2724E /* LaunchScreen.storyboard */; };
+		C7D82A6F1F9A2FAB004DC6E9 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D82A6E1F9A2FAB004DC6E9 /* AlertService.swift */; };
+		C7D82A711F9A3090004DC6E9 /* PickUpLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D82A701F9A308F004DC6E9 /* PickUpLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		C7210AFF1F9A22B300F2724E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7210B021F9A22B300F2724E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7210B041F9A22B300F2724E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7D82A6E1F9A2FAB004DC6E9 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		C7D82A701F9A308F004DC6E9 /* PickUpLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpLine.swift; sourceTree = "<group>"; };
 		CC6A4792A737ACAB59A72D2B /* Pods-RealmSwift4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmSwift4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmSwift4/Pods-RealmSwift4.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +88,8 @@
 				C7210AFF1F9A22B300F2724E /* Assets.xcassets */,
 				C7210B011F9A22B300F2724E /* LaunchScreen.storyboard */,
 				C7210B041F9A22B300F2724E /* Info.plist */,
+				C7D82A6E1F9A2FAB004DC6E9 /* AlertService.swift */,
+				C7D82A701F9A308F004DC6E9 /* PickUpLine.swift */,
 			);
 			path = RealmSwift4;
 			sourceTree = "<group>";
@@ -220,7 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7210AFB1F9A22B300F2724E /* ViewController.swift in Sources */,
+				C7D82A6F1F9A2FAB004DC6E9 /* AlertService.swift in Sources */,
 				C7210AF91F9A22B300F2724E /* AppDelegate.swift in Sources */,
+				C7D82A711F9A3090004DC6E9 /* PickUpLine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
