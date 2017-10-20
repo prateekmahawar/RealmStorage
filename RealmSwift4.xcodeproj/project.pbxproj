@@ -10,11 +10,13 @@
 		5ECFB79843C939BB701EE990 /* Pods_RealmSwift4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEC4FC8C18054BED3991018 /* Pods_RealmSwift4.framework */; };
 		C7210AF91F9A22B300F2724E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7210AF81F9A22B300F2724E /* AppDelegate.swift */; };
 		C7210AFB1F9A22B300F2724E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7210AFA1F9A22B300F2724E /* ViewController.swift */; };
-		C7210AFE1F9A22B300F2724E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7210AFC1F9A22B300F2724E /* Main.storyboard */; };
 		C7210B001F9A22B300F2724E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7210AFF1F9A22B300F2724E /* Assets.xcassets */; };
 		C7210B031F9A22B300F2724E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7210B011F9A22B300F2724E /* LaunchScreen.storyboard */; };
 		C7D82A6F1F9A2FAB004DC6E9 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D82A6E1F9A2FAB004DC6E9 /* AlertService.swift */; };
 		C7D82A711F9A3090004DC6E9 /* PickUpLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D82A701F9A308F004DC6E9 /* PickUpLine.swift */; };
+		C7D82A731F9A330D004DC6E9 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D82A721F9A330D004DC6E9 /* RealmService.swift */; };
+		C7D82A751F9A3388004DC6E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D82A741F9A3388004DC6E9 /* Main.storyboard */; };
+		C7D82A771F9A33CA004DC6E9 /* PickUpLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D82A761F9A33CA004DC6E9 /* PickUpLineCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,12 +25,14 @@
 		C7210AF51F9A22B300F2724E /* RealmSwift4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmSwift4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7210AF81F9A22B300F2724E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7210AFA1F9A22B300F2724E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C7210AFD1F9A22B300F2724E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7210AFF1F9A22B300F2724E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7210B021F9A22B300F2724E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7210B041F9A22B300F2724E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7D82A6E1F9A2FAB004DC6E9 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
 		C7D82A701F9A308F004DC6E9 /* PickUpLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpLine.swift; sourceTree = "<group>"; };
+		C7D82A721F9A330D004DC6E9 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		C7D82A741F9A3388004DC6E9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C7D82A761F9A33CA004DC6E9 /* PickUpLineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PickUpLineCell.swift; path = /Users/PrateekMahawar/Desktop/RealmSwift4/RealmSwift4/PickUpLineCell.swift; sourceTree = "<absolute>"; };
 		CC6A4792A737ACAB59A72D2B /* Pods-RealmSwift4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmSwift4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmSwift4/Pods-RealmSwift4.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,12 +88,14 @@
 			children = (
 				C7210AF81F9A22B300F2724E /* AppDelegate.swift */,
 				C7210AFA1F9A22B300F2724E /* ViewController.swift */,
-				C7210AFC1F9A22B300F2724E /* Main.storyboard */,
+				C7D82A741F9A3388004DC6E9 /* Main.storyboard */,
 				C7210AFF1F9A22B300F2724E /* Assets.xcassets */,
 				C7210B011F9A22B300F2724E /* LaunchScreen.storyboard */,
 				C7210B041F9A22B300F2724E /* Info.plist */,
 				C7D82A6E1F9A2FAB004DC6E9 /* AlertService.swift */,
 				C7D82A701F9A308F004DC6E9 /* PickUpLine.swift */,
+				C7D82A721F9A330D004DC6E9 /* RealmService.swift */,
+				C7D82A761F9A33CA004DC6E9 /* PickUpLineCell.swift */,
 			);
 			path = RealmSwift4;
 			sourceTree = "<group>";
@@ -156,9 +162,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D82A751F9A3388004DC6E9 /* Main.storyboard in Resources */,
 				C7210B031F9A22B300F2724E /* LaunchScreen.storyboard in Resources */,
 				C7210B001F9A22B300F2724E /* Assets.xcassets in Resources */,
-				C7210AFE1F9A22B300F2724E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,23 +232,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7210AFB1F9A22B300F2724E /* ViewController.swift in Sources */,
+				C7D82A771F9A33CA004DC6E9 /* PickUpLineCell.swift in Sources */,
 				C7D82A6F1F9A2FAB004DC6E9 /* AlertService.swift in Sources */,
 				C7210AF91F9A22B300F2724E /* AppDelegate.swift in Sources */,
 				C7D82A711F9A3090004DC6E9 /* PickUpLine.swift in Sources */,
+				C7D82A731F9A330D004DC6E9 /* RealmService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C7210AFC1F9A22B300F2724E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C7210AFD1F9A22B300F2724E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C7210B011F9A22B300F2724E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
