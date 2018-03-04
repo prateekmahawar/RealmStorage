@@ -47,8 +47,6 @@ class ViewController: UIViewController {
             RealmService.shared.create(newPickUpLine)
         }
     }
-    
-    
 }
 
 extension ViewController: UITableViewDataSource {
